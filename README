@@ -1,0 +1,7 @@
+http://jackguitar.sourceforge.net
+
+dependencies:
+  libfftw3
+  cairo
+  gtk+
+  jack

@@ -1,0 +1,1166 @@
+jackguitar-main.o jackguitar-main.o: main.c \
+  /opt/garnome/include/gtk-2.0/gtk/gtk.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdk.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkcairo.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkcolor.h \
+  /opt/garnome/include/cairo/cairo.h \
+  /opt/garnome/include/cairo/cairo-features.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdktypes.h \
+  /opt/garnome/include/glib-2.0/glib.h \
+  /opt/garnome/include/glib-2.0/glib/galloca.h \
+  /opt/garnome/include/glib-2.0/glib/gtypes.h \
+  /opt/garnome/lib/glib-2.0/include/glibconfig.h \
+  /opt/garnome/include/glib-2.0/glib/gmacros.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/stddef.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/limits.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/syslimits.h \
+  /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/gnu/stubs.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/float.h \
+  /opt/garnome/include/glib-2.0/glib/garray.h \
+  /opt/garnome/include/glib-2.0/glib/gasyncqueue.h \
+  /opt/garnome/include/glib-2.0/glib/gthread.h \
+  /opt/garnome/include/glib-2.0/glib/gerror.h \
+  /opt/garnome/include/glib-2.0/glib/gquark.h \
+  /opt/garnome/include/glib-2.0/glib/gatomic.h \
+  /opt/garnome/include/glib-2.0/glib/gbacktrace.h \
+  /opt/garnome/include/glib-2.0/glib/gcache.h \
+  /opt/garnome/include/glib-2.0/glib/glist.h \
+  /opt/garnome/include/glib-2.0/glib/gmem.h \
+  /opt/garnome/include/glib-2.0/glib/gcompletion.h \
+  /opt/garnome/include/glib-2.0/glib/gconvert.h \
+  /opt/garnome/include/glib-2.0/glib/gdataset.h \
+  /opt/garnome/include/glib-2.0/glib/gdate.h \
+  /opt/garnome/include/glib-2.0/glib/gdir.h \
+  /opt/garnome/include/glib-2.0/glib/gfileutils.h \
+  /opt/garnome/include/glib-2.0/glib/ghash.h \
+  /opt/garnome/include/glib-2.0/glib/ghook.h \
+  /opt/garnome/include/glib-2.0/glib/giochannel.h \
+  /opt/garnome/include/glib-2.0/glib/gmain.h \
+  /opt/garnome/include/glib-2.0/glib/gslist.h \
+  /opt/garnome/include/glib-2.0/glib/gstring.h \
+  /opt/garnome/include/glib-2.0/glib/gunicode.h \
+  /opt/garnome/include/glib-2.0/glib/gutils.h \
+  /usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/stdarg.h \
+  /opt/garnome/include/glib-2.0/glib/gkeyfile.h \
+  /opt/garnome/include/glib-2.0/glib/gmappedfile.h \
+  /opt/garnome/include/glib-2.0/glib/gmarkup.h \
+  /opt/garnome/include/glib-2.0/glib/gmessages.h \
+  /opt/garnome/include/glib-2.0/glib/gnode.h \
+  /opt/garnome/include/glib-2.0/glib/goption.h \
+  /opt/garnome/include/glib-2.0/glib/gpattern.h \
+  /opt/garnome/include/glib-2.0/glib/gprimes.h \
+  /opt/garnome/include/glib-2.0/glib/gqsort.h \
+  /opt/garnome/include/glib-2.0/glib/gqueue.h \
+  /opt/garnome/include/glib-2.0/glib/grand.h \
+  /opt/garnome/include/glib-2.0/glib/grel.h \
+  /opt/garnome/include/glib-2.0/glib/gscanner.h \
+  /opt/garnome/include/glib-2.0/glib/gshell.h \
+  /opt/garnome/include/glib-2.0/glib/gspawn.h \
+  /opt/garnome/include/glib-2.0/glib/gstrfuncs.h \
+  /opt/garnome/include/glib-2.0/glib/gthreadpool.h \
+  /opt/garnome/include/glib-2.0/glib/gtimer.h \
+  /opt/garnome/include/glib-2.0/glib/gtree.h \
+  /opt/garnome/include/pango-1.0/pango/pango.h \
+  /opt/garnome/include/pango-1.0/pango/pango-attributes.h \
+  /opt/garnome/include/pango-1.0/pango/pango-font.h \
+  /opt/garnome/include/pango-1.0/pango/pango-coverage.h \
+  /opt/garnome/include/pango-1.0/pango/pango-types.h \
+  /opt/garnome/include/glib-2.0/glib-object.h \
+  /opt/garnome/include/glib-2.0/gobject/gboxed.h \
+  /opt/garnome/include/glib-2.0/gobject/gtype.h \
+  /opt/garnome/include/glib-2.0/gobject/genums.h \
+  /opt/garnome/include/glib-2.0/gobject/gobject.h \
+  /opt/garnome/include/glib-2.0/gobject/gvalue.h \
+  /opt/garnome/include/glib-2.0/gobject/gparam.h \
+  /opt/garnome/include/glib-2.0/gobject/gclosure.h \
+  /opt/garnome/include/glib-2.0/gobject/gsignal.h \
+  /opt/garnome/include/glib-2.0/gobject/gmarshal.h \
+  /opt/garnome/include/glib-2.0/gobject/gparamspecs.h \
+  /opt/garnome/include/glib-2.0/gobject/gsourceclosure.h \
+  /opt/garnome/include/glib-2.0/gobject/gtypemodule.h \
+  /opt/garnome/include/glib-2.0/gobject/gtypeplugin.h \
+  /opt/garnome/include/glib-2.0/gobject/gvaluearray.h \
+  /opt/garnome/include/glib-2.0/gobject/gvaluetypes.h \
+  /opt/garnome/include/pango-1.0/pango/pango-break.h \
+  /opt/garnome/include/pango-1.0/pango/pango-item.h \
+  /opt/garnome/include/pango-1.0/pango/pango-context.h \
+  /opt/garnome/include/pango-1.0/pango/pango-fontmap.h \
+  /opt/garnome/include/pango-1.0/pango/pango-fontset.h \
+  /opt/garnome/include/pango-1.0/pango/pango-engine.h \
+  /opt/garnome/include/pango-1.0/pango/pango-glyph.h \
+  /opt/garnome/include/pango-1.0/pango/pango-script.h \
+  /opt/garnome/include/pango-1.0/pango/pango-enum-types.h \
+  /opt/garnome/include/pango-1.0/pango/pango-layout.h \
+  /opt/garnome/include/pango-1.0/pango/pango-glyph-item.h \
+  /opt/garnome/include/pango-1.0/pango/pango-tabs.h \
+  /opt/garnome/include/pango-1.0/pango/pango-renderer.h \
+  /opt/garnome/lib/gtk-2.0/include/gdkconfig.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkpixbuf.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkrgb.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-features.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-core.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-transform.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-animation.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-io.h \
+  /usr/include/stdio.h /usr/include/bits/types.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/typesizes.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/bits/stdio.h /opt/garnome/include/glib-2.0/gmodule.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-loader.h \
+  /opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h \
+  /opt/garnome/include/pango-1.0/pango/pangocairo.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkcursor.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkdisplay.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkevents.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkdnd.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkinput.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkdrawable.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkgc.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkenumtypes.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkfont.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkimage.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkkeys.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkdisplaymanager.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkpango.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkpixmap.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkproperty.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkregion.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkscreen.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkselection.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkspawn.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkvisual.h \
+  /opt/garnome/include/gtk-2.0/gdk/gdkwindow.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaboutdialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkdialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkwindow.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaccelgroup.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkenums.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkbin.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcontainer.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkwidget.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkobject.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktypeutils.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktypebuiltins.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkdebug.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkadjustment.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkstyle.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtksettings.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkrc.h \
+  /opt/garnome/include/atk-1.0/atk/atkobject.h \
+  /opt/garnome/include/atk-1.0/atk/atkstate.h \
+  /opt/garnome/include/atk-1.0/atk/atkrelationtype.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaccellabel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtklabel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmisc.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmenu.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmenushell.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaccelmap.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaccessible.h \
+  /opt/garnome/include/atk-1.0/atk/atk.h \
+  /opt/garnome/include/atk-1.0/atk/atkaction.h \
+  /opt/garnome/include/atk-1.0/atk/atkcomponent.h \
+  /opt/garnome/include/atk-1.0/atk/atkutil.h \
+  /opt/garnome/include/atk-1.0/atk/atkdocument.h \
+  /opt/garnome/include/atk-1.0/atk/atkeditabletext.h \
+  /opt/garnome/include/atk-1.0/atk/atktext.h \
+  /opt/garnome/include/atk-1.0/atk/atkgobjectaccessible.h \
+  /opt/garnome/include/atk-1.0/atk/atkhyperlink.h \
+  /opt/garnome/include/atk-1.0/atk/atkhypertext.h \
+  /opt/garnome/include/atk-1.0/atk/atkimage.h \
+  /opt/garnome/include/atk-1.0/atk/atknoopobject.h \
+  /opt/garnome/include/atk-1.0/atk/atknoopobjectfactory.h \
+  /opt/garnome/include/atk-1.0/atk/atkobjectfactory.h \
+  /opt/garnome/include/atk-1.0/atk/atkregistry.h \
+  /opt/garnome/include/atk-1.0/atk/atkrelation.h \
+  /opt/garnome/include/atk-1.0/atk/atkrelationset.h \
+  /opt/garnome/include/atk-1.0/atk/atkselection.h \
+  /opt/garnome/include/atk-1.0/atk/atkstateset.h \
+  /opt/garnome/include/atk-1.0/atk/atkstreamablecontent.h \
+  /opt/garnome/include/atk-1.0/atk/atktable.h \
+  /opt/garnome/include/atk-1.0/atk/atkvalue.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaction.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkactiongroup.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkitemfactory.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkalignment.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkarrow.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkaspectframe.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkframe.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkbbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkbindings.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkimage.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcalendar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtksignal.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmarshal.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcelllayout.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrenderer.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcelleditable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreeviewcolumn.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreemodel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreesortable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrenderercombo.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrenderertext.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrendererpixbuf.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrendererprogress.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellrenderertoggle.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcellview.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcheckbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktogglebutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcheckmenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkclipboard.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkselection.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkclist.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhscrollbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkscrollbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkrange.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvscrollbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcolorbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcolorsel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcolorseldialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcombo.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcombobox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreeview.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkdnd.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcomboboxentry.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkctree.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkcurve.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkdrawingarea.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkeditable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkentry.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkimcontext.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkentrycompletion.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkliststore.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreemodelfilter.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkeventbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkexpander.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilesel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfixed.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilechooserbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilechooser.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilefilter.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilechooserdialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfilechooserwidget.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfontbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkfontsel.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkgamma.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkgc.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhandlebox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhbbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhpaned.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkpaned.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhruler.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkruler.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhscale.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkscale.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkhseparator.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkseparator.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkiconfactory.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkicontheme.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkiconview.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkimagemenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkimcontextsimple.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkimmulticontext.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkinputdialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkinvisible.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtklayout.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtklist.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtklistitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmain.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmenubar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmenutoolbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktoolbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktoolitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktooltips.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmessagedialog.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkmodules.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtknotebook.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkoldeditable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkoptionmenu.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkpixmap.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkplug.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtksocket.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkpreview.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkprogress.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkprogressbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkradioaction.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktoggleaction.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkradiobutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkradiomenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkradiotoolbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktoggletoolbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkscrolledwindow.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkviewport.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkseparatormenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkseparatortoolitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtksizegroup.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkspinbutton.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkstatusbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkstock.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktearoffmenuitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktext.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktextbuffer.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktexttagtable.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktexttag.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktextiter.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktextchild.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktextmark.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktextview.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktipsquery.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktoolbar.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktree.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreednd.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreeitem.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreemodelsort.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreeselection.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtktreestore.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkuimanager.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvbbox.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkversion.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvpaned.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvruler.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvscale.h \
+  /opt/garnome/include/gtk-2.0/gtk/gtkvseparator.h /usr/include/math.h \
+  /usr/include/bits/huge_val.h /usr/include/bits/mathdef.h \
+  /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/sched.h /usr/include/alloca.h /usr/include/getopt.h \
+  ../config.h fretboard.h scales.h jack_client.h /usr/include/string.h \
+  /usr/include/bits/string.h /usr/include/bits/string2.h \
+  /usr/include/errno.h /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+  /usr/include/bits/confname.h /usr/local/include/sndfile.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/signal.h \
+  /usr/include/bits/initspin.h /usr/include/bits/sigthread.h \
+  /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+  /usr/include/asm/sigcontext.h /usr/include/linux/compiler.h \
+  /usr/include/bits/sigstack.h /usr/local/include/jack/jack.h \
+  /usr/local/include/jack/types.h /usr/include/inttypes.h \
+  /usr/include/stdint.h /usr/local/include/jack/transport.h \
+  /usr/local/include/jack/ringbuffer.h /usr/include/complex.h \
+  /usr/include/bits/cmathcalls.h /usr/local/include/fftw3.h fftgraph.h
+
+/opt/garnome/include/gtk-2.0/gtk/gtk.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdk.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkcairo.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkcolor.h:
+
+/opt/garnome/include/cairo/cairo.h:
+
+/opt/garnome/include/cairo/cairo-features.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdktypes.h:
+
+/opt/garnome/include/glib-2.0/glib.h:
+
+/opt/garnome/include/glib-2.0/glib/galloca.h:
+
+/opt/garnome/include/glib-2.0/glib/gtypes.h:
+
+/opt/garnome/lib/glib-2.0/include/glibconfig.h:
+
+/opt/garnome/include/glib-2.0/glib/gmacros.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/stddef.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/limits.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/float.h:
+
+/opt/garnome/include/glib-2.0/glib/garray.h:
+
+/opt/garnome/include/glib-2.0/glib/gasyncqueue.h:
+
+/opt/garnome/include/glib-2.0/glib/gthread.h:
+
+/opt/garnome/include/glib-2.0/glib/gerror.h:
+
+/opt/garnome/include/glib-2.0/glib/gquark.h:
+
+/opt/garnome/include/glib-2.0/glib/gatomic.h:
+
+/opt/garnome/include/glib-2.0/glib/gbacktrace.h:
+
+/opt/garnome/include/glib-2.0/glib/gcache.h:
+
+/opt/garnome/include/glib-2.0/glib/glist.h:
+
+/opt/garnome/include/glib-2.0/glib/gmem.h:
+
+/opt/garnome/include/glib-2.0/glib/gcompletion.h:
+
+/opt/garnome/include/glib-2.0/glib/gconvert.h:
+
+/opt/garnome/include/glib-2.0/glib/gdataset.h:
+
+/opt/garnome/include/glib-2.0/glib/gdate.h:
+
+/opt/garnome/include/glib-2.0/glib/gdir.h:
+
+/opt/garnome/include/glib-2.0/glib/gfileutils.h:
+
+/opt/garnome/include/glib-2.0/glib/ghash.h:
+
+/opt/garnome/include/glib-2.0/glib/ghook.h:
+
+/opt/garnome/include/glib-2.0/glib/giochannel.h:
+
+/opt/garnome/include/glib-2.0/glib/gmain.h:
+
+/opt/garnome/include/glib-2.0/glib/gslist.h:
+
+/opt/garnome/include/glib-2.0/glib/gstring.h:
+
+/opt/garnome/include/glib-2.0/glib/gunicode.h:
+
+/opt/garnome/include/glib-2.0/glib/gutils.h:
+
+/usr/lib/gcc-lib/i586-suse-linux/3.3.3/include/stdarg.h:
+
+/opt/garnome/include/glib-2.0/glib/gkeyfile.h:
+
+/opt/garnome/include/glib-2.0/glib/gmappedfile.h:
+
+/opt/garnome/include/glib-2.0/glib/gmarkup.h:
+
+/opt/garnome/include/glib-2.0/glib/gmessages.h:
+
+/opt/garnome/include/glib-2.0/glib/gnode.h:
+
+/opt/garnome/include/glib-2.0/glib/goption.h:
+
+/opt/garnome/include/glib-2.0/glib/gpattern.h:
+
+/opt/garnome/include/glib-2.0/glib/gprimes.h:
+
+/opt/garnome/include/glib-2.0/glib/gqsort.h:
+
+/opt/garnome/include/glib-2.0/glib/gqueue.h:
+
+/opt/garnome/include/glib-2.0/glib/grand.h:
+
+/opt/garnome/include/glib-2.0/glib/grel.h:
+
+/opt/garnome/include/glib-2.0/glib/gscanner.h:
+
+/opt/garnome/include/glib-2.0/glib/gshell.h:
+
+/opt/garnome/include/glib-2.0/glib/gspawn.h:
+
+/opt/garnome/include/glib-2.0/glib/gstrfuncs.h:
+
+/opt/garnome/include/glib-2.0/glib/gthreadpool.h:
+
+/opt/garnome/include/glib-2.0/glib/gtimer.h:
+
+/opt/garnome/include/glib-2.0/glib/gtree.h:
+
+/opt/garnome/include/pango-1.0/pango/pango.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-attributes.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-font.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-coverage.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-types.h:
+
+/opt/garnome/include/glib-2.0/glib-object.h:
+
+/opt/garnome/include/glib-2.0/gobject/gboxed.h:
+
+/opt/garnome/include/glib-2.0/gobject/gtype.h:
+
+/opt/garnome/include/glib-2.0/gobject/genums.h:
+
+/opt/garnome/include/glib-2.0/gobject/gobject.h:
+
+/opt/garnome/include/glib-2.0/gobject/gvalue.h:
+
+/opt/garnome/include/glib-2.0/gobject/gparam.h:
+
+/opt/garnome/include/glib-2.0/gobject/gclosure.h:
+
+/opt/garnome/include/glib-2.0/gobject/gsignal.h:
+
+/opt/garnome/include/glib-2.0/gobject/gmarshal.h:
+
+/opt/garnome/include/glib-2.0/gobject/gparamspecs.h:
+
+/opt/garnome/include/glib-2.0/gobject/gsourceclosure.h:
+
+/opt/garnome/include/glib-2.0/gobject/gtypemodule.h:
+
+/opt/garnome/include/glib-2.0/gobject/gtypeplugin.h:
+
+/opt/garnome/include/glib-2.0/gobject/gvaluearray.h:
+
+/opt/garnome/include/glib-2.0/gobject/gvaluetypes.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-break.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-item.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-context.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-fontmap.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-fontset.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-engine.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-glyph.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-script.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-enum-types.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-layout.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-glyph-item.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-tabs.h:
+
+/opt/garnome/include/pango-1.0/pango/pango-renderer.h:
+
+/opt/garnome/lib/gtk-2.0/include/gdkconfig.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkpixbuf.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkrgb.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-features.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-core.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-transform.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-animation.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-simple-anim.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-io.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/opt/garnome/include/glib-2.0/gmodule.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-loader.h:
+
+/opt/garnome/include/gtk-2.0/gdk-pixbuf/gdk-pixbuf-enum-types.h:
+
+/opt/garnome/include/pango-1.0/pango/pangocairo.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkcursor.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkdisplay.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkevents.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkdnd.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkinput.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkdrawable.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkgc.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkenumtypes.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkfont.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkimage.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkkeys.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkdisplaymanager.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkpango.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkpixmap.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkproperty.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkregion.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkscreen.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkselection.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkspawn.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkvisual.h:
+
+/opt/garnome/include/gtk-2.0/gdk/gdkwindow.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaboutdialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkdialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkwindow.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaccelgroup.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkenums.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkbin.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcontainer.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkwidget.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkobject.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktypeutils.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktypebuiltins.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkdebug.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkadjustment.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkstyle.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtksettings.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkrc.h:
+
+/opt/garnome/include/atk-1.0/atk/atkobject.h:
+
+/opt/garnome/include/atk-1.0/atk/atkstate.h:
+
+/opt/garnome/include/atk-1.0/atk/atkrelationtype.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaccellabel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtklabel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmisc.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmenu.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmenushell.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaccelmap.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaccessible.h:
+
+/opt/garnome/include/atk-1.0/atk/atk.h:
+
+/opt/garnome/include/atk-1.0/atk/atkaction.h:
+
+/opt/garnome/include/atk-1.0/atk/atkcomponent.h:
+
+/opt/garnome/include/atk-1.0/atk/atkutil.h:
+
+/opt/garnome/include/atk-1.0/atk/atkdocument.h:
+
+/opt/garnome/include/atk-1.0/atk/atkeditabletext.h:
+
+/opt/garnome/include/atk-1.0/atk/atktext.h:
+
+/opt/garnome/include/atk-1.0/atk/atkgobjectaccessible.h:
+
+/opt/garnome/include/atk-1.0/atk/atkhyperlink.h:
+
+/opt/garnome/include/atk-1.0/atk/atkhypertext.h:
+
+/opt/garnome/include/atk-1.0/atk/atkimage.h:
+
+/opt/garnome/include/atk-1.0/atk/atknoopobject.h:
+
+/opt/garnome/include/atk-1.0/atk/atknoopobjectfactory.h:
+
+/opt/garnome/include/atk-1.0/atk/atkobjectfactory.h:
+
+/opt/garnome/include/atk-1.0/atk/atkregistry.h:
+
+/opt/garnome/include/atk-1.0/atk/atkrelation.h:
+
+/opt/garnome/include/atk-1.0/atk/atkrelationset.h:
+
+/opt/garnome/include/atk-1.0/atk/atkselection.h:
+
+/opt/garnome/include/atk-1.0/atk/atkstateset.h:
+
+/opt/garnome/include/atk-1.0/atk/atkstreamablecontent.h:
+
+/opt/garnome/include/atk-1.0/atk/atktable.h:
+
+/opt/garnome/include/atk-1.0/atk/atkvalue.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaction.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkactiongroup.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkitemfactory.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkalignment.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkarrow.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkaspectframe.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkframe.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkbbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkbindings.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkimage.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcalendar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtksignal.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmarshal.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcelllayout.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrenderer.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcelleditable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreeviewcolumn.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreemodel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreesortable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrenderercombo.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrenderertext.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrendererpixbuf.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrendererprogress.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellrenderertoggle.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcellview.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcheckbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktogglebutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcheckmenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkclipboard.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkselection.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkclist.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhscrollbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkscrollbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkrange.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvscrollbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcolorbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcolorsel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcolorseldialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcombo.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcombobox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreeview.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkdnd.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcomboboxentry.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkctree.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkcurve.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkdrawingarea.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkeditable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkentry.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkimcontext.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkentrycompletion.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkliststore.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreemodelfilter.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkeventbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkexpander.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilesel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfixed.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilechooserbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilechooser.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilefilter.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilechooserdialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfilechooserwidget.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfontbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkfontsel.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkgamma.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkgc.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhandlebox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhbbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhpaned.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkpaned.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhruler.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkruler.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhscale.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkscale.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkhseparator.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkseparator.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkiconfactory.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkicontheme.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkiconview.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkimagemenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkimcontextsimple.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkimmulticontext.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkinputdialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkinvisible.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtklayout.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtklist.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtklistitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmain.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmenubar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmenutoolbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktoolbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktoolitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktooltips.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmessagedialog.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkmodules.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtknotebook.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkoldeditable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkoptionmenu.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkpixmap.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkplug.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtksocket.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkpreview.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkprogress.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkprogressbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkradioaction.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktoggleaction.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkradiobutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkradiomenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkradiotoolbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktoggletoolbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkscrolledwindow.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkviewport.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkseparatormenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkseparatortoolitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtksizegroup.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkspinbutton.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkstatusbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkstock.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktearoffmenuitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktext.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktextbuffer.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktexttagtable.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktexttag.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktextiter.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktextchild.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktextmark.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktextview.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktipsquery.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktoolbar.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktree.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreednd.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreeitem.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreemodelsort.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreeselection.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtktreestore.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkuimanager.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvbbox.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkversion.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvpaned.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvruler.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvscale.h:
+
+/opt/garnome/include/gtk-2.0/gtk/gtkvseparator.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/alloca.h:
+
+/usr/include/getopt.h:
+
+../config.h:
+
+fretboard.h:
+
+scales.h:
+
+jack_client.h:
+
+/usr/include/string.h:
+
+/usr/include/bits/string.h:
+
+/usr/include/bits/string2.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/confname.h:
+
+/usr/local/include/sndfile.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/initspin.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/asm/sigcontext.h:
+
+/usr/include/linux/compiler.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/local/include/jack/jack.h:
+
+/usr/local/include/jack/types.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/stdint.h:
+
+/usr/local/include/jack/transport.h:
+
+/usr/local/include/jack/ringbuffer.h:
+
+/usr/include/complex.h:
+
+/usr/include/bits/cmathcalls.h:
+
+/usr/local/include/fftw3.h:
+
+fftgraph.h:
