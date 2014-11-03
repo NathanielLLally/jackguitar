@@ -1,3 +1,6 @@
+Circa 2003 attempt at learning gtk+ cairo and jack in order to place 
+notes on a graphical fretboard from analog sound input
+
 http://jackguitar.sourceforge.net
 
 dependencies:
